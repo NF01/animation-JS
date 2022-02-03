@@ -1,0 +1,28 @@
+{
+  "name": "im48-modulaire",
+  "version": "1.0.0",
+  "description": "COMEM+ ProgWeb, Animation 2D",
+  "main": "index_exa.js",
+  "scripts": {
+    "start": "concurrently  \"live-server dist/\" \"webpack --mode=development --watch\"",
+    "preview": "live-server dist/",
+    "build": "webpack",
+    "watch": "webpack --mode=development --watch"
+  },
+  "keywords": [],
+  "author": "Chabloz Nicolas",
+  "license": "GNU General Public License v3.0",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "concurrently": "^5.3.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "mainloop.js": "^1.0.4",
+    "randomcolor": "^0.6.2"
+  }
+}
